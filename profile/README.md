@@ -39,11 +39,11 @@
 
 ---
 
-## [📦 Структура системи сайтів з WeSyF](FileStructure.txt)
+## [📦 Структура системи сайтів з WeSyF](https://github.com/WeSyF/.github/blob/main/profile/FileStructure.txt)
 
 ---
 
-## [📦 Структура проєктів на WeSyF](FileStructure.txt)
+## [📦 Структура проєктів на WeSyF](https://github.com/WeSyF/.github/blob/main/profile/FileStructure.txt)
 
 ---
 
