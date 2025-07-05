@@ -1,0 +1,134 @@
+📦 Структура системи сайтів з WeSyF
+
+📂 system-root/
+├──📂 sites/
+│ ├──📂 site1/
+│ └──📂 site2/
+└──📂 vendor/
+
+_______________________________
+📦 Структура проєктів на WeSyF
+
+📂 site1
+|──📂 app
+|  |──📂 Common
+|  |  |──📂 Actions
+|  |  |  └──📄 WelcomeAction.php
+|  |  |──📂 Entities
+|  |  |  └──📄 AppEntity.php
+|  |  |──📂 Events
+|  |  |  └──📄 StartEvent.php
+|  |  |──📂 Exceptions
+|  |  |──📂 configs
+|  |  |  └──📄 app.config.php
+|  |  |──📂 languages
+|  |  |  |──📂 en
+|  |  |  |  |──📄 app.php
+|  |  |  |  └──📄 exceptions.php
+|  |  |  └──📂 uk
+|  |  |  |  |──📄 app.php
+|  |  |  |  └──📄 exceptions.php
+|  |  |──📂 routes
+|  |  |  └──📄 app.routes.php
+|  |  |──📂 themes
+|  |  |  └──📂 default
+|  |  |  |  |──📂 layouts
+|  |  |  |  |  └──📄 app.lt.php
+|  |  |  |  |──📂 parts
+|  |  |  |  └──📂 templates
+|  |  |──📄 AppApi.php
+|  |  |──📄 AppController.php
+|  |  |──📄 AppModel.php
+|  |  |──📄 AppPage.php
+|  |  |──📄 AppRoutes.php
+|  |  └──📄 AppView.php
+|  |──📂 Containers
+|  |  |──📄 Api.php
+|  |  |──📄 App.php
+|  |  └──📄 Web.php
+|  |──📂 Extensions
+|  |  └──📂 GroupName
+|  |  |  └──📂 Example
+|  |  |  |  |──📂 languages
+|  |  |  |  |  |──📄 en.php
+|  |  |  |  |  └──📄 uk.php
+|  |  |  |  └──📂 themes
+|  |  |  |  |  └──📂 default
+|  |  |  |  |  |  |──📂 layouts
+|  |  |  |  |  |  |──📂 parts
+|  |  |  |  |  |  └──📂 templates
+|  |──📂 Modules
+|  |  |──📂 Main
+|  |  |  |──📂 Common
+|  |  |  |  |──📂 Actions
+|  |  |  |  |  └──📄 MainAction.php
+|  |  |  |  |──📂 Entities
+|  |  |  |  |  └──📄 MainEntity.php
+|  |  |  |  |──📂 Events
+|  |  |  |  |  └──📄 MainEvent.php
+|  |  |  |  |──📂 Exceptions
+|  |  |  |  |──📂 configs
+|  |  |  |  |  └──📄 main.config.php
+|  |  |  |  |──📂 languages
+|  |  |  |  |  |──📂 en
+|  |  |  |  |  |  |──📄 errors.php
+|  |  |  |  |  |  |──📄 exceptions.php
+|  |  |  |  |  |  └──📄 main.php
+|  |  |  |  |  └──📂 uk
+|  |  |  |  |  |  |──📄 errors.php
+|  |  |  |  |  |  |──📄 exceptions.php
+|  |  |  |  |  |  └──📄 main.php
+|  |  |  |  |──📂 routes
+|  |  |  |  |  └──📄 main.routes.php
+|  |  |  |  └──📂 themes
+|  |  |  |  |  └──📂 default
+|  |  |  |  |  |  |──📂 layouts
+|  |  |  |  |  |  |  └──📄 main.lt.php
+|  |  |  |  |  |  |──📂 parts
+|  |  |  |  |  |  └──📂 templates
+|  |  |  |──📂 Pages
+|  |  |  |  |──📂 Home
+|  |  |  |  |  |──📂 languages
+|  |  |  |  |  |  |──📄 en.php
+|  |  |  |  |  |  └──📄 uk.php
+|  |  |  |  |  |──📂 themes
+|  |  |  |  |  |  └──📂 default
+|  |  |  |  |  |  |  └──📄 home.tmplt.php
+|  |  |  |  |  |──📄 HomeAccess.php
+|  |  |  |  |  |──📄 HomeActions.php
+|  |  |  |  |  |──📄 HomeApi.php
+|  |  |  |  |  |──📄 HomeController.php
+|  |  |  |  |  |──📄 HomeEntity.php
+|  |  |  |  |  |──📄 HomeEvents.php
+|  |  |  |  |  |──📄 HomeModel.php
+|  |  |  |  |  |──📄 HomePage.php
+|  |  |  |  |  |──📄 HomeRoutes.php
+|  |  |  |  |  └──📄 HomeView.php
+|  |  |  └──📄 MainModule.php
+|  |──📂 Widgets
+|  |  └──📂 GroupName
+|  |  |  └──📂 Example
+|  |  |  |  |──📂 languages
+|  |  |  |  |  |──📄 en.php
+|  |  |  |  |  └──📄 uk.php
+|  |  |  |  └──📂 themes
+|  |  |  |  |  └──📂 default
+|  |  |  |  |  |  |──📂 layouts
+|  |  |  |  |  |  |──📂 parts
+|  |  |  |  |  |  └──📂 templates
+|──📂 public
+|  |──📂 images
+|  |──📂 themes
+|  |  └──📂 default
+|  |──📄 .htaccess
+|  |──📄 .htaccess_example
+|  └──📄 index.php
+|──📂 system
+|  |──📂 configs
+|  |  |──📂 db
+|  |  └──📂 themes
+|  |  |  └──📂 default
+|  └──📂 libs
+|──📂 temp
+|  └──📂 cache
+└──📂 vendor
